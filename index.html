@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    
+</head>
+<body>
+    <h1>Tic Tac Toe</h1>
+    <div id="grid">
+        <!--(div#c$.case)*9 pour générer 9 div avec id c(incrément) de classe case puis tabuler-->
+        <div id="c1" class="case"></div>
+        <div id="c2" class="case"></div>
+        <div id="c3" class="case"></div>
+        <div id="c4" class="case"></div>
+        <div id="c5" class="case"></div>
+        <div id="c6" class="case"></div>
+        <div id="c7" class="case"></div>
+        <div id="c8" class="case"></div>
+        <div id="c9" class="case"></div>
+        </div>
+    </div id="score">
+        <p>C'est au tour du joueur <span id="joueur">1</span></p>
+        <p>Score joueur 1 : <span id="score1">0</span></p>
+        <p>Score joueur 2 : <span id="score2">0</span></p>
+        <p>Match nuls : <span id="scoreNul">0</span></p>
+    </div>
+    <script src='./main.js'></script>
+</body>
+</html>
